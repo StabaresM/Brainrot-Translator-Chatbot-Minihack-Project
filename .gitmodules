@@ -1,0 +1,6 @@
+[submodule "liboai"]
+	path = liboai
+	url = https://github.com/D7EAD/liboai.git
+[submodule "vcpkg"]
+	path = vcpkg
+	url = https://github.com/microsoft/vcpkg.git

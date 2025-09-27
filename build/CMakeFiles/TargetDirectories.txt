@@ -1,0 +1,14 @@
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/CMakeFiles/myapp.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/CMakeFiles/edit_cache.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/CMakeFiles/list_install_components.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/CMakeFiles/install.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/CMakeFiles/install/local.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/CMakeFiles/install/strip.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/liboai/liboai/CMakeFiles/oai.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/liboai/liboai/CMakeFiles/edit_cache.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/liboai/liboai/CMakeFiles/rebuild_cache.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/liboai/liboai/CMakeFiles/list_install_components.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/liboai/liboai/CMakeFiles/install.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/liboai/liboai/CMakeFiles/install/local.dir
+/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/liboai/liboai/CMakeFiles/install/strip.dir
