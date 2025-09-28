@@ -54,7 +54,7 @@ function getMenuChoice() {
 }
 async function brainrotTranslator(database) {
   const message = await ask("\nPlease enter a message with brainrot, and I'll translate it into casual language:\n");
-  const systemPrompt = database + "You are a helpful bot that translates Gen Z slang, aka 'Brainrot,' to casual, conversational terms. Translate the sentece with the help of the data base and other resources. Do not give a type of response";
+  const systemPrompt = database + "You are a translation assistant that only outputs a straightforward, clear translation of Gen Z slang sentences into normal, easy-to-understand English. Use the following database of 120 brainrot words and definitions for reference. Your response must be ONLY the translated sentence—no explanations, no additional comments, no suggestions.";
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
@@ -71,7 +71,7 @@ async function brainrotTranslator(database) {
 
 async function professionalBrainrotTranslator(database) {
   const message = await ask("\nPlease enter a message with brainrot, and I'll translate it into professional language:\n");
-  const systemPrompt = database + "You are a helpful bot that translates Gen Z slang, aka 'Brainrot', into professional language (for older generations in a working environment).Translate the sentece with the help of the data base and other resources. Do not give a type of response";
+  const systemPrompt = database + "You are a professional language assistant that translates sentences containing Gen Z slang (brainrot) into professional, clear, and formal language suitable for a workplace environment. Use the following database of 120 brainrot words and their definitions as reference. Respond ONLY with the translated sentence in professional language — no explanations, suggestions, or additional comments.";
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
