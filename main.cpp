@@ -220,10 +220,10 @@ int getMenuChoice() {
         if (std::cin.fail() || choice < 1 || choice > 4) {
             // If invalid input, clearing the error and stream, and displaying error + asking again
             std::cin.clear(); 
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Discard invalid input
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); 
             std::cout << "\nError: Please enter 1, 2, 3, or 4.\n\n";
         } else {
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Remove any extra input
+            // Removing any extra newline characters from the stream
             return choice;
         }
     }
