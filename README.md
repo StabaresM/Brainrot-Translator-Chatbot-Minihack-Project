@@ -1,4 +1,4 @@
-##Welcome to our team's OSC MiniHack project!
+**Welcome to our team's OSC MiniHack project!**
 
 **Project description:**
 This project is a translator for Gen Z “brainrot” slang in the style of a menu-based AI chatbot. It offers three modes: casual conversation, professional workplace communication, and an educational mode that explains slang origins. The tool improves intergenerational and professional communication by making “brainrotted” messages clearer, with measurable impact based on the percentage of slang words translated.
