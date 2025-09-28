@@ -38,11 +38,17 @@ const database = buildDatabaseString(slang_db);
 // Helper to get system prompt
 function getSystemPrompt(mode, database) {
   if (mode === 'casual') {
-    return database + "You are a helpful bot that translates Gen Z slang, aka 'Brainrot,' to casual, conversational terms.";
+    return database + "You are a translation assistant that ONLY outputs the translated sentence. " +
+  "Do NOT include any explanations, suggestions, greetings, or conversational text. " +
+  "Translate this Gen Z slang sentence into normal, clear, easy-to-understand English."
   } else if (mode === 'professional') {
-    return database + "You are a helpful bot that translates Gen Z slang, aka 'Brainrot', into professional language (for older generations in a working environment).";
+    return database + 
+  " You are a professional language assistant that ONLY outputs the translated sentence in professional, formal English. " +
+  "Do NOT include any explanations, suggestions, or conversational remarks.You are a helpful bot that translates Gen Z slang, aka 'Brainrot', into professional language (for older generations in a working environment).";
   } else if (mode === 'professor') {
-    return database + "You are a helpful bot that explains Gen Z slang, aka 'Brainrot', and gives an explanation and brief historical background in language that the older generation can understand.";
+    return database + "You are a helpful bot that explains Gen Z slang, aka 'Brainrot', and gives an explanation and brief historical background in language that the older generation can understand.database" + 
+    " You are a helpful bot that ONLY provides definitions and historical background in clear language. " +
+  "Do NOT include greetings, filler, or conversation.";
   } else {
     return database;
   }
