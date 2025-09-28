@@ -48,7 +48,7 @@ int main() {
     std::string database = "Here is a database of Gen Z slang terms and their meanings:\n";
     int count = 0;
     for (const auto& [term, meaning] : slang_db) {
-        if (count++ > 100) break; 
+        if (count++ > 120) break; 
         database += term + ": " + meaning + "\n";
     }
     // Updating the conversation with the message, and checking to ensure it worked
