@@ -61,7 +61,7 @@ add_library(oai::oai STATIC IMPORTED)
 set_target_properties(oai::oai PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "nlohmann_json::nlohmann_json;CURL::libcurl_static"
+  INTERFACE_LINK_LIBRARIES "nlohmann_json::nlohmann_json;CURL::libcurl"
   INTERFACE_SOURCES "${_IMPORT_PREFIX}/include/liboai.h;${_IMPORT_PREFIX}/include/components/audio.h;${_IMPORT_PREFIX}/include/components/azure.h;${_IMPORT_PREFIX}/include/components/chat.h;${_IMPORT_PREFIX}/include/components/completions.h;${_IMPORT_PREFIX}/include/components/edits.h;${_IMPORT_PREFIX}/include/components/embeddings.h;${_IMPORT_PREFIX}/include/components/files.h;${_IMPORT_PREFIX}/include/components/fine_tunes.h;${_IMPORT_PREFIX}/include/components/images.h;${_IMPORT_PREFIX}/include/components/models.h;${_IMPORT_PREFIX}/include/components/moderations.h;${_IMPORT_PREFIX}/include/core/authorization.h;${_IMPORT_PREFIX}/include/core/exception.h;${_IMPORT_PREFIX}/include/core/netimpl.h;${_IMPORT_PREFIX}/include/core/network.h;${_IMPORT_PREFIX}/include/core/response.h"
 )
 

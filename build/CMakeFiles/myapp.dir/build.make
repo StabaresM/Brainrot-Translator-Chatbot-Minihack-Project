@@ -93,10 +93,7 @@ myapp_EXTERNAL_OBJECTS =
 myapp: CMakeFiles/myapp.dir/main.cpp.o
 myapp: CMakeFiles/myapp.dir/build.make
 myapp: liboai/liboai/liboai.a
-myapp: /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/debug/lib/libcurl-d.a
-myapp: /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/lib/libssl.a
-myapp: /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/lib/libcrypto.a
-myapp: /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/lib/libz.a
+myapp: /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/lib/libcurl.a
 myapp: CMakeFiles/myapp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/Brain-Rot-Translator-Mini-Hack-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable myapp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myapp.dir/link.txt --verbose=$(VERBOSE)

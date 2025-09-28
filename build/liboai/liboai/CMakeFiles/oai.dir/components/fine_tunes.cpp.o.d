@@ -191,9 +191,8 @@ liboai/liboai/CMakeFiles/oai.dir/components/fine_tunes.cpp.o: \
  /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/bits/std_thread.h \
  /workspaces/Brain-Rot-Translator-Mini-Hack-Project/liboai/liboai/components/../include/components/../core/netimpl.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/curl.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/curlver.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/system.h \
+ /opt/conda/include/curl/curl.h /opt/conda/include/curl/curlver.h \
+ /opt/conda/include/curl/system.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -218,18 +217,14 @@ liboai/liboai/CMakeFiles/oai.dir/components/fine_tunes.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/include/x86_64-linux-gnu/sys/time.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/easy.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/multi.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/curl.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/urlapi.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/options.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/header.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/websockets.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/curl/mprintf.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /opt/conda/include/curl/easy.h \
+ /opt/conda/include/curl/multi.h /opt/conda/include/curl/curl.h \
+ /opt/conda/include/curl/urlapi.h /opt/conda/include/curl/options.h \
+ /opt/conda/include/curl/header.h /opt/conda/include/curl/websockets.h \
+ /opt/conda/include/curl/mprintf.h \
  /workspaces/Brain-Rot-Translator-Mini-Hack-Project/liboai/liboai/components/../include/components/../core/response.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/json.hpp \
- /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
+ /opt/conda/include/nlohmann/json.hpp /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
@@ -252,11 +247,13 @@ liboai/liboai/CMakeFiles/oai.dir/components/fine_tunes.cpp.o: \
  /usr/include/c++/13/bits/align.h \
  /usr/include/c++/13/bits/shared_ptr_atomic.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/utility \
+ /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/numeric \
+ /usr/include/c++/13/bits/stl_numeric.h \
+ /usr/include/c++/13/pstl/glue_numeric_defs.h /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/adl_serializer.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/abi_macros.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/conversions/from_json.hpp \
+ /opt/conda/include/nlohmann/adl_serializer.hpp \
+ /opt/conda/include/nlohmann/detail/abi_macros.hpp \
+ /opt/conda/include/nlohmann/detail/conversions/from_json.hpp \
  /usr/include/c++/13/forward_list /usr/include/c++/13/bits/forward_list.h \
  /usr/include/c++/13/bits/forward_list.tcc /usr/include/c++/13/map \
  /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
@@ -292,52 +289,47 @@ liboai/liboai/CMakeFiles/oai.dir/components/fine_tunes.cpp.o: \
  /usr/include/c++/13/bits/gslice_array.h \
  /usr/include/c++/13/bits/mask_array.h \
  /usr/include/c++/13/bits/indirect_array.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/exceptions.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/value_t.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/macro_scope.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/meta/detected.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/meta/void_t.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/thirdparty/hedley/hedley.hpp \
+ /opt/conda/include/nlohmann/detail/exceptions.hpp \
+ /opt/conda/include/nlohmann/detail/value_t.hpp \
+ /opt/conda/include/nlohmann/detail/macro_scope.hpp \
+ /opt/conda/include/nlohmann/detail/meta/detected.hpp \
+ /opt/conda/include/nlohmann/detail/meta/void_t.hpp \
+ /opt/conda/include/nlohmann/thirdparty/hedley/hedley.hpp \
  /usr/include/c++/13/version /usr/include/c++/13/cassert \
  /usr/include/assert.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/string_escape.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/input/position_t.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/meta/cpp_future.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/meta/type_traits.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/iterators/iterator_traits.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/meta/call_std/begin.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/meta/call_std/end.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/json_fwd.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/string_concat.hpp \
+ /opt/conda/include/nlohmann/detail/string_escape.hpp \
+ /opt/conda/include/nlohmann/detail/input/position_t.hpp \
+ /opt/conda/include/nlohmann/detail/meta/cpp_future.hpp \
+ /opt/conda/include/nlohmann/detail/meta/type_traits.hpp \
+ /opt/conda/include/nlohmann/detail/iterators/iterator_traits.hpp \
+ /opt/conda/include/nlohmann/detail/meta/call_std/begin.hpp \
+ /opt/conda/include/nlohmann/detail/meta/call_std/end.hpp \
+ /opt/conda/include/nlohmann/json_fwd.hpp \
+ /opt/conda/include/nlohmann/detail/string_concat.hpp \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/meta/identity_tag.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/meta/std_fs.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/conversions/to_json.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/iterators/iteration_proxy.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/string_utils.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/byte_container_with_subtype.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/hash.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/input/binary_reader.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/input/input_adapters.hpp \
- /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
- /usr/include/c++/13/pstl/glue_numeric_defs.h \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/input/json_sax.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/input/lexer.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/meta/is_sax.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/input/parser.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/iterators/internal_iterator.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/iterators/primitive_iterator.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/iterators/iter_impl.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/json_custom_base_class.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/json_pointer.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/json_ref.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/output/binary_writer.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/output/output_adapters.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/output/serializer.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/conversions/to_chars.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/ordered_map.hpp \
- /usr/include/c++/13/any \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/detail/macro_unscope.hpp \
- /workspaces/Brain-Rot-Translator-Mini-Hack-Project/vcpkg/installed/x64-linux/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ /opt/conda/include/nlohmann/detail/meta/identity_tag.hpp \
+ /opt/conda/include/nlohmann/detail/meta/std_fs.hpp \
+ /opt/conda/include/nlohmann/detail/conversions/to_json.hpp \
+ /opt/conda/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+ /opt/conda/include/nlohmann/byte_container_with_subtype.hpp \
+ /opt/conda/include/nlohmann/detail/hash.hpp \
+ /opt/conda/include/nlohmann/detail/input/binary_reader.hpp \
+ /opt/conda/include/nlohmann/detail/input/input_adapters.hpp \
+ /opt/conda/include/nlohmann/detail/input/json_sax.hpp \
+ /opt/conda/include/nlohmann/detail/input/lexer.hpp \
+ /opt/conda/include/nlohmann/detail/meta/is_sax.hpp \
+ /opt/conda/include/nlohmann/detail/input/parser.hpp \
+ /opt/conda/include/nlohmann/detail/iterators/internal_iterator.hpp \
+ /opt/conda/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+ /opt/conda/include/nlohmann/detail/iterators/iter_impl.hpp \
+ /opt/conda/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+ /opt/conda/include/nlohmann/detail/json_pointer.hpp \
+ /opt/conda/include/nlohmann/detail/json_ref.hpp \
+ /opt/conda/include/nlohmann/detail/output/binary_writer.hpp \
+ /opt/conda/include/nlohmann/detail/output/output_adapters.hpp \
+ /opt/conda/include/nlohmann/detail/output/serializer.hpp \
+ /opt/conda/include/nlohmann/detail/conversions/to_chars.hpp \
+ /opt/conda/include/nlohmann/ordered_map.hpp /usr/include/c++/13/any \
+ /opt/conda/include/nlohmann/detail/macro_unscope.hpp \
+ /opt/conda/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
  /workspaces/Brain-Rot-Translator-Mini-Hack-Project/liboai/liboai/components/../include/components/../core/exception.h
