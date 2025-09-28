@@ -6,6 +6,7 @@ Modes breakdown:
   * Casual Brainrot Translator: Takes input of brainrot terms/words/phrases, and translates it into casual language (for older people who might not be in touch with Gen Z terminology).
   * Professional translator: Brainrot translation into formal/professional language for better communication in professional settings.
   * Brainrot Teacher: Describes the meaning of brainrot words, including time period, historical context, and sample usage, for educational purposes.
+There are 2 branches: the main branch with a C++ text-based interface, and a GraphicsInterface branch (this one) using JavaScript. To access our graphic interface, use this branch; or, go to this link: https://brainrot-translator-chatbot-minihack.onrender.com/
 
 **Usage/implementation:**
   * The code base can be set up with the following steps:
