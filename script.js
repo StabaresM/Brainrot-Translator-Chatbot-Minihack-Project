@@ -49,7 +49,7 @@ Object.assign(githubBtn.style, {
   padding: '10px 15px',
   cursor: 'pointer',
   borderRadius: '5px',
-  fontWeight: 'bold',
+  fontWeight: 'normal',
   fontFamily: 'Arial, sans-serif',
   transition: 'background-color 0.3s ease',
 });
