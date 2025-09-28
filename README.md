@@ -9,7 +9,8 @@ Modes breakdown:
 There are 2 branches: the main branch with a C++ text-based interface, and a GraphicsInterface branch (this one) using JavaScript. To access our graphic interface, use this branch; or, go to this link: https://brainrot-translator-chatbot-minihack.onrender.com/
 
 **Usage/implementation:**
-  * The code base can be set up with the following steps:
+  * The code base can be set up with the following steps.
+  * Here's a link to a video demo: https://youtu.be/7UeZnI_pXbc
   * Open the lasest version in GitHub Codespaces (or another IDE)
   * Get submodule (only for the first time):
    * Enter into the terminal:
