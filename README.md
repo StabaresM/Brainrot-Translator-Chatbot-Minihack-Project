@@ -20,11 +20,21 @@ Modes breakdown:
    * export OPENAI_API_KEY=YOUR_KEY_HERE
    * Where YOUR_KEY_HERE is the pasted key you got from OpenAI; paste this line into the terminal.
   * Build and run the program
-   * Enter the following lines into the terminal (the first two just on the first run; takes about a minute to build on the first run):
-   * cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake
-   * cmake --build build
-   * ./build/myapp
-  * And, the program should start up. Interact with the chatbot via a menu-based text interface, and when finished, simply choose option 4 to finish the conversation.
+   * Enter the following lines into the terminal:
+   * npm install
+   * npm install -g npm@11.6.1
+   * npm install express openai cors
+    * If npm install doesnt work (bash: npm: command not found)
+      * export NVM_DIR="$HOME/.nvm"
+      * [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+      * nvm install 22.17.0 --reinstall-packages-from=22.17.0
+      * nvm use 22.17.0
+       * node-v
+       * npm-v
+   * node test.js for console
+   * node server.js for website
+    * In case of doing this, copy the address given by the console into your prefered web browser  
+  * And, the program should start up. Interact with the chatbot via a menu-based text interface, and when finished, simply choose option 4 to finish the conversation(for console usage only / close tab on browser to exit from the website).
 
 **Measurable impact:**
   * To quantify our program’s usefulness, we developed a metric called **brainrot density**—the ratio of slang terms to total words in a message. The percent density equals the percent increase in comprehensibility after translation, since the output always contains 0% brainrot.
