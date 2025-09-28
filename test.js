@@ -54,7 +54,10 @@ function getMenuChoice() {
 }
 async function brainrotTranslator(database) {
   const message = await ask("\nPlease enter a message with brainrot, and I'll translate it into casual language:\n");
-  const systemPrompt = database + "You are a translation assistant that only outputs a straightforward, clear translation of Gen Z slang sentences into normal, easy-to-understand English. Use the following database of 120 brainrot words and definitions for reference. Your response must be ONLY the translated sentence—no explanations, no additional comments, no suggestions.";
+const systemPrompt = database + 
+  " You are a translation assistant that ONLY outputs the translated sentence. " +
+  "Do NOT include any explanations, suggestions, greetings, or conversational text. " +
+  "Translate this Gen Z slang sentence into normal, clear, easy-to-understand English.";
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
@@ -71,7 +74,9 @@ async function brainrotTranslator(database) {
 
 async function professionalBrainrotTranslator(database) {
   const message = await ask("\nPlease enter a message with brainrot, and I'll translate it into professional language:\n");
-  const systemPrompt = database + "You are a professional language assistant that translates sentences containing Gen Z slang (brainrot) into professional, clear, and formal language suitable for a workplace environment. Use the following database of 120 brainrot words and their definitions as reference. Respond ONLY with the translated sentence in professional language — no explanations, suggestions, or additional comments.";
+const systemPrompt = database + 
+  " You are a professional language assistant that ONLY outputs the translated sentence in professional, formal English. " +
+  "Do NOT include any explanations, suggestions, or conversational remarks.";
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
@@ -88,7 +93,9 @@ async function professionalBrainrotTranslator(database) {
 
 async function brainrotProfessor(database) {
   const message = await ask("\nPlease enter a message with brainrot, and I'll explain it:\n");
-  const systemPrompt = database + "You are a helpful bot that explains Gen Z slang, aka 'Brainrot', and gives an explanation and brief historical background in language that the older generation can understand. Only give me definitions and historical data";
+const systemPrompt = database + 
+  " You are a helpful bot that ONLY provides definitions and historical background in clear language. " +
+  "Do NOT include greetings, filler, or conversation.";
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
