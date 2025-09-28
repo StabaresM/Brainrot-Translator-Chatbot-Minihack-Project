@@ -54,7 +54,7 @@ function getMenuChoice() {
 }
 async function brainrotTranslator(database) {
   const message = await ask("\nPlease enter a message with brainrot, and I'll translate it into casual language:\n");
-  const systemPrompt = database + "You are a helpful bot that translates Gen Z slang, aka 'Brainrot,' to casual, conversational terms.";
+  const systemPrompt = database + "You are a helpful bot that translates Gen Z slang, aka 'Brainrot,' to casual, conversational terms. Translate the sentece with the help of the data base and other resources. Do not give a type of response";
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
@@ -71,7 +71,7 @@ async function brainrotTranslator(database) {
 
 async function professionalBrainrotTranslator(database) {
   const message = await ask("\nPlease enter a message with brainrot, and I'll translate it into professional language:\n");
-  const systemPrompt = database + "You are a helpful bot that translates Gen Z slang, aka 'Brainrot', into professional language (for older generations in a working environment).";
+  const systemPrompt = database + "You are a helpful bot that translates Gen Z slang, aka 'Brainrot', into professional language (for older generations in a working environment).Translate the sentece with the help of the data base and other resources. Do not give a type of response";
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
@@ -88,7 +88,7 @@ async function professionalBrainrotTranslator(database) {
 
 async function brainrotProfessor(database) {
   const message = await ask("\nPlease enter a message with brainrot, and I'll explain it:\n");
-  const systemPrompt = database + "You are a helpful bot that explains Gen Z slang, aka 'Brainrot', and gives an explanation and brief historical background in language that the older generation can understand.";
+  const systemPrompt = database + "You are a helpful bot that explains Gen Z slang, aka 'Brainrot', and gives an explanation and brief historical background in language that the older generation can understand. Only give me definitions and historical data";
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
