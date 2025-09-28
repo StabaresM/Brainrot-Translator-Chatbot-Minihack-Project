@@ -2,24 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Brainrot Translator</title>
+  <title>Brainrot Translator Chatbot</title>
   <style>
-    body { font-family: sans-serif; max-width: 600px; margin: 2em auto; }
+    body { font-family: Impact; max-width: 600px; margin: 2em auto; }
     #output { margin-top: 1em; padding: 1em; border: 1px solid #ccc; min-height: 2em; }
   </style>
 </head>
+<button id="githubBtn">GitHub Repo</button>
 <body>
-  <h1>Brainrot Translator</h1>
+  <h1>Brainrot Translator ChatBot</h1>
   <label for="mode">Choose mode:</label>
   <select id="mode">
-    <option value="casual">Casual</option>
-    <option value="professional">Professional</option>
-    <option value="professor">Professor</option>
+    <option value="Casual">Brainrot Translator</option>
+    <option value="Professional">Professional Brainrot Translator</option>
+    <option value="Professor">Brainrot Professor</option>
   </select>
   <br><br>
   <textarea id="userInput" rows="3" cols="50" placeholder="Enter your brainrot message..."></textarea><br>
   <button id="sendBtn">Translate</button>
   <div id="output"></div>
   <script src="script.js"></script>
+  
 </body>
 </html>
