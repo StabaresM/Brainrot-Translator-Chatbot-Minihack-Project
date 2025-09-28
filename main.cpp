@@ -209,7 +209,7 @@ int getMenuChoice() {
     while (true) {
         // Displaying the menu for the user
         std::cout << "Would you like to: \n"
-                  << "1. Use the casual Brainrot Translator \n"
+                  << "1. Use the Casual Brainrot Translator \n"
                   << "2. Use the Professional Brainrot Translator \n"
                   << "3. Use the Brainrot Professor \n"
                   << "4. End the conversation \n"
