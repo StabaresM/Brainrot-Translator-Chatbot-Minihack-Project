@@ -50,7 +50,7 @@ Object.assign(githubBtn.style, {
   cursor: 'pointer',
   borderRadius: '5px',
   fontWeight: 'normal',
-  fontFamily: 'Arial, sans-serif',
+  fontFamily: 'gill sans',
   transition: 'background-color 0.3s ease',
 });
 
@@ -60,6 +60,15 @@ githubBtn.addEventListener('mouseenter', () => {
 });
 githubBtn.addEventListener('mouseleave', () => {
   githubBtn.style.backgroundColor = '#24292e';
+});
+const elements = document.querySelectorAll('textarea, select');
+elements.forEach(el => {
+  el.style.paddingLeft = '12px';
+  el.style.paddingRight = '12px';
+  el.style.width = '100%';
+  el.style.boxSizing = 'border-box';
+  el.style.maxWidth = '100%';
+  el.style.fontSize = '1em';
 });
 
 
